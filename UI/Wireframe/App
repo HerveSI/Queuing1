@@ -1,0 +1,133 @@
+import * as React from "react";
+
+function MyComponent(props) {
+  return (
+    <div className="flex-col fill-white stroke-[3px] stroke-black overflow-hidden relative flex aspect-[0.3404255319148936] pt-6 pb-12">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/89605520319f58e60ccbcd1367e84979d026cb7ec7b653bc737e27b8e8861f94?"
+        className="absolute h-full w-full object-cover object-center inset-0"
+      />
+      <div className="relative self-center flex w-full max-w-[356px] justify-between gap-5 items-start">
+        <div className="text-black text-xl underline grow whitespace-nowrap mt-2">
+          Company Logo
+        </div>
+        <div className="flex basis-[0%] flex-col items-center">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/b7f84e987088d6fb4022e908cb4dd1bdf5857e897871e26732929ab379fb69df?"
+            className="aspect-[13] object-contain object-center w-[26px] fill-black stroke-[2px] stroke-black overflow-hidden"
+          />
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/b7f84e987088d6fb4022e908cb4dd1bdf5857e897871e26732929ab379fb69df?"
+            className="aspect-[13] object-contain object-center w-[26px] fill-black stroke-[2px] stroke-black overflow-hidden mt-1.5"
+          />
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/b7f84e987088d6fb4022e908cb4dd1bdf5857e897871e26732929ab379fb69df?"
+            className="aspect-[13] object-contain object-center w-[26px] fill-black stroke-[2px] stroke-black overflow-hidden mt-1.5"
+          />
+        </div>
+      </div>
+      <div className="relative text-black text-4xl self-stretch w-full mt-16 max-md:mt-10">
+        Welcome to the Queueing{" "}
+      </div>
+      <div className="relative flex flex-col items-stretch ml-3 mt-3.5 self-start max-md:ml-2.5">
+        <div className="text-black text-4xl whitespace-nowrap">System</div>
+        <div className="text-black text-2xl whitespace-nowrap mt-14 max-md:mt-10">
+          Current Ticket Number:
+        </div>
+        <div className="text-black text-5xl whitespace-nowrap mt-6">A-23</div>
+      </div>
+      <div className="flex-col relative text-black text-center text-xl whitespace-nowrap fill-neutral-200 stroke-[2px] stroke-black overflow-hidden aspect-[2.54] justify-center items-stretch mt-10 px-3.5 py-5 self-start">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/95caf086b2bfc7de80f6423fa2221f5bec5a6bd6d5d12eecdabbb6ff2f402d75?"
+          className="absolute h-full w-full object-cover object-center inset-0"
+        />
+        Join Queue
+      </div>
+      <div className="relative self-stretch flex w-full flex-col items-stretch mt-8 pl-3 pr-14 max-md:pr-5">
+        <div className="text-black text-base whitespace-nowrap">
+          To join the queue, simply click the &quot;Join Queue&quot;{" "}
+        </div>
+        <div className="text-black text-base whitespace-nowrap mt-1.5">
+          button and follow the instructions on the{" "}
+        </div>
+        <div className="text-black text-base whitespace-nowrap mt-3">
+          next screen.
+        </div>
+      </div>
+      <div className="flex-col relative fill-white stroke-[2px] stroke-black overflow-hidden self-stretch flex aspect-[4.166666666666667] w-full justify-center items-center px-px">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/d6109370cb33a3dce450a60fe17489b74624d7c3a7bd7496a94450eedeb670c5?"
+          className="absolute h-full w-full object-cover object-center inset-0"
+        />
+        <div className="flex-col relative fill-black stroke-[2px] stroke-black overflow-hidden flex aspect-[4.145833333333333] w-[398px] justify-center items-center">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/4d3a4e672ad289769fedee633bfcce3cad9011372dd24dc0c4717b1f1a9da570?"
+            className="absolute h-full w-full object-cover object-center inset-0"
+          />
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/0cc8798fdfe0df59f8c950b933130887a5be860534f03c137fb3efc3de43b4fe?"
+            className="aspect-[4.15] object-contain object-center w-full fill-black stroke-[2px] stroke-black overflow-hidden"
+          />
+        </div>
+      </div>
+      <div className="flex-col relative fill-white stroke-[2px] stroke-black overflow-hidden self-stretch flex aspect-[1.1111111111111112] w-full mt-12 mb-20 pl-2.5 pr-20 pt-1.5 pb-6 items-start max-md:my-10 max-md:pr-5">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/2365bc5ac88f14b083cc3f5a419c75de9ffb9f2da4ab6ab29bda939f6c3c2a96?"
+          className="absolute h-full w-full object-cover object-center inset-0"
+        />
+        <div className="relative text-black text-xl font-bold whitespace-nowrap">
+          Contact Us
+        </div>
+        <div className="relative text-black text-base whitespace-nowrap mt-5">
+          123 Main Street
+        </div>
+        <div className="relative text-black text-base whitespace-nowrap mt-3.5">
+          Anytown, USA 12345
+        </div>
+        <div className="relative text-black text-base whitespace-nowrap mt-2.5">
+          Phone: (123) 456-7890
+        </div>
+        <div className="relative text-black text-base whitespace-nowrap mt-3">
+          Email: info@queuingsystem.com
+        </div>
+        <div className="relative text-black text-xl font-bold whitespace-nowrap mt-6">
+          Helpful Links
+        </div>
+        <div className="relative text-black text-base underline whitespace-nowrap mt-4">
+          Privacy Policy
+        </div>
+        <div className="relative text-black text-base underline whitespace-nowrap mt-2.5">
+          Terms of Service
+        </div>
+        <div className="relative text-black text-xl font-bold whitespace-nowrap mt-6">
+          Connect With Us
+        </div>
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/cad8a0f3a9615624a62177e7fe9c819fff359f0310837c2fbd97067055969f6a?"
+          className="aspect-[1.25] object-contain object-center w-2.5 fill-black overflow-hidden max-w-full mt-5"
+        />
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/1619b312e8adbfb454e1275886b2e6fad1161ff0fd41f86c93d0a7b949273393?"
+          className="aspect-[1.43] object-contain object-center w-2.5 fill-black overflow-hidden max-w-full mt-4"
+        />
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/7072ccf3a4f9647d64d6259bef018a28db1c18cbf608f937eeb2bd1234930e93?"
+          className="aspect-[1.25] object-contain object-center w-2.5 fill-black overflow-hidden max-w-full mt-4"
+        />
+      </div>
+    </div>
+  );
+}
+
